@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: transparent;
+}
+li {
+	float: right;	
+}
+li a {
+	display: block;
+	color:green;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: 'Josefin San' , san serif;
+}
+<!---Arial Rounded MT Bold-->
+li a:hover {
+    background-color; #858585;
+	color: green;
+	transition: 4sec;
+}
+.picture img{
+	height:510px;
+	width:384px;
+	float: left;
+	display: flex;
+	border-radius: 50px;
+}
+.paragraph dr{
+	color: black;
+	
+	letter-spacing: 2px;
+}
+.paragraph mn{
+    color: blue;
+    font-size: 70px;
+	
+}
+.paragraph span{
+   color: #FFFFFF;
+   font-size: 70px;
+}
+ .paragraph p{  
+   color:black;
+   font-size: 35px;
+   padding-left: 30%;
+ }
+ .paragraph alada{
+	 font-size:20px ;
+ }
+ 
+ body {
+	 background: linear-gradient(to right,#005B96,#87CEFA,#ADD8E6 );
+	 font-family: 'Josefin Sans', sans-serif;
+ }

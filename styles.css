@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:norm,wght@0,100..700;1,100..700&display=swap');
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: transparent;
+	font-family: 'Josefin San' , san serif;
+}
+nav li {
+	float: right;
+	font-family: 'Josefin San' , san serif;
+}
+li a {
+	display: block;
+	color:green;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+<!---Arial Rounded MT Bold-->
+li a:hover {
+    background-color; #858585;
+	color: green;
+	transition: 4sec;
+	text-decoration: underline;
+	}
+body {
+	background:linear-gradient(45deg,#2E8B57,#FFFDD0,#87CEFA );
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	 font-family: 'Josefin Sans', sans-serif;
+}
+.logo img {
+    height     :105px;
+	widht      :150px;
+	padding-top: 0;
+}
+.content h1{
+    color: green;
+    font-size: 45px;
+    letter-spacing: 1px;
+	text-align: center;
+}
+span{
+ color: red;
+} 
+.content p{
+	text-align: center;
+	color: black;
+	font family: 'San Serif' , san serif;
+	padding-right: 15%;
+	padding-left: 15%;
+	font-size: 30;
+	
+}
+.content h4{
+	text-align: right;
+	color: red;
+	padding-right: 20%;
+	padding-top: 2%;
+}
+.container {
+	display:flex;
+	align-item: center;
+	justify-content: center;
+	column-gap: 80px;
+}
+.button1{
+	border-radius: 50px;
+	color: #fff;
+	background: linear-gradient(90deg, #fff, #fff);
+	transition: 1.5s;
+}
+
+.button1 img{
+	border-radius: 35px;
+	color: #fff;
+}
+.button1:hover {
+	background: linear-gradient(90deg, #6616d0, #ac34e7);
+}
+
+.button2{
+	border-radius: 50px;
+	color: #fff;
+	background: linear-gradient(90deg, #fff, #fff);
+	transition: 1.5s;
+}
+
+.button2 img{
+	border-radius: 35px;
+	color: #fff;
+}
+
+.button2:hover {
+	background: linear-gradient(270deg, #32CD32, #006400);
+}
+
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.descriptions img{
+   height: 333.25px;
+   width:  500px;
+   display: flex;
+   border-radius: 45px;
+   object-fit: cover;
+   padding-left: 2%;
+   padding-bottom: 5%;
+   background: transparent;
+   
+
+}
+.d {	
+	text-align: center;
+	color: black;
+	font family: 'San Serif' , san serif;
+	padding-right: 20%;
+	padding-left: 20%;
+	font-size: 50px;
+	
+    
+}
+.descriptiont p{
+  font family: 'San Serif' , san serif;   
+  font-size: 25px;
+  display: flex;
+  padding-left: 3%;
+  padding-right: 4%;
+}
+
+.description {
+  display: flex;
+
+}
+.copyright {
+  font family: 'San Serif' , san serif;
+  text-align: center;
+}

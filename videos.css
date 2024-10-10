@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wdth,wght@112.5,100..800&display=swap');
+
+body {
+	 background: linear-gradient(to left,#009688,#A3E2C3 );
+	 font-family: 'Josefin Sans', sans-serif;
+ }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0;
+    overflow: hidden;
+	background-color: transparent;
+}
+li {
+	float: right;	
+}
+li a {
+	display: block;
+	color:green;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: 'Josefin San' , san serif;
+}
+<!---Arial Rounded MT Bold-->
+li a:hover {
+    background-color; #858585;
+	color: green;
+	transition: 4sec;
+}
+ .video-item {
+            background-color: transparent;
+            display: flex;
+            border-radius: 25px;
+            overflow: hidden;
+            justify-content: left;
+        }
+.container p{
+	color:black;
+	float: left;
+	font-weight: bold;
+	font:Josefin-Sans;
+	display: flex;
+	font-size: 10px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.text h3{
+	text-align: center;
+	font-size: 50px;
+	color: linear-gradient(to right,#009688,#A3E2C3 );
+	backgroumd-color: transparent;
+	font-family: "Anek Bangla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <500>;
+    font-style: normal;
+    font-variation-settings: "wdth" 215 , "height" 200;
+}
+ .video-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+video {
+	height: 234px;
+	width: 400px;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo img {
+    height     :105px;
+	wight      :150px;
+	padding-top: 0;
+}
